@@ -1,7 +1,7 @@
 # This is a Declarative Automation Bundle definition for dab_demo.
 # See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.
 bundle:
-  name: dab_demo
+  name: dab_demo_${bundle.target}
   uuid: 765cea5b-3e3a-42b8-be8e-c5bfd107cd43
 
 include:
